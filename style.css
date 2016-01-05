@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/bg.png");
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 13px;
+  color: #4A4A4A;
+}
+
+main {
+  max-width: 994px;
+  margin: auto;
+  background-color: white;
+  padding-left: 47px;
+  padding-right: 47px;
+  margin-top: 20px;
+}
+
+header {
+  padding-top: 50px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-family: "Terminal Dosis";
+  font-size: 52px;
+}
+
+header h3 {
+  color: #828282;
+}
+
+header span {
+  float: right;
+}
+
+nav {
+  max-width: 900px;
+  height: 59px;
+  background-color: #FAFAFA;
+  margin-bottom: 25px;
+  border-top: 1px solid #BBBBBB;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+nav ul {
+  text-align: center;
+  line-height: 59px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+#sec-1 {
+  margin-bottom: 38px;
+}
+
+#sec-2 {
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+article h2 {
+  margin-bottom: 22px;
+}
+
+article p {
+  margin-bottom: 30px;
+}
+
+#art a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+#art a:hover {
+  font-weight: bold;
+  color: #6266FF;
+}
+
+#center {
+  text-align: center;
+}
+
+.separ {
+  height: 40px;
+  background-color: #FAFAFA;
+  border-top: 1px solid #BBBBBB;
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.clear {
+  clear: both;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+#a {
+  width: 25%;
+  height: 235px;
+  float: left;
+  background-color: #FAFAFA;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#a h4 {
+  padding-bottom: 20px;
+}
+
+#a a {
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+#a a:hover {
+  color: #6266FF;
+  font-weight: bold;
+}
